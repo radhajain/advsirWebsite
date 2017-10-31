@@ -6591,7 +6591,7 @@
 					background-color: #1ebdd1;
 				}
 
-		.gallery.style2 > .forward, .gallery.style2 > .backward {
+	/*	.gallery.style2 > .forward, .gallery.style2 > .backward {
 			text-decoration: none;
 			-moz-transition: opacity 0.2s ease-in-out;
 			-webkit-transition: opacity 0.2s ease-in-out;
@@ -6604,7 +6604,7 @@
 			cursor: pointer;
 			opacity: 0;
 			z-index: 2;
-		}
+		}*/
 
 			.gallery.style2 > .forward:before, .gallery.style2 > .backward:before {
 				-moz-osx-font-smoothing: grayscale;
