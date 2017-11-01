@@ -56,6 +56,18 @@
 		box-sizing: border-box;
 	}
 
+.dinkpics {
+	transition: background 0.4s linear;
+	border-radius: 5px;
+}
+
+
+.dinkpics:hover {
+	background-color: lightblue;
+}
+
+
+
 /* Grid */
 
 	.row {
