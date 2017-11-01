@@ -2389,13 +2389,12 @@
 
 .headshot {
 	/*height: 250px;*/
-	max-height: 250px;
-	object-fit: contain;
+	max-height: 225px;
 	border-radius: 50%;
 }
 
 .ourteam {
-	display: -webkit-box;
+    display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
