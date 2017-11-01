@@ -2385,6 +2385,25 @@
 		color: rgba(0, 0, 0, 0.75) !important;
 	}
 
+/* Headshots */
+
+.headshot {
+	height: 250px;
+	border-radius: 50%;
+
+}
+
+.ourteam {
+	display:flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.profile{
+	margin:10px;
+}
+
 /* Icon */
 
 	.icon {
@@ -7157,7 +7176,8 @@
 
 /* Items (transitions) */
 
-	.items.onload-fade-in > * > .inner {
+	
+	.onload-fade-in > * > .inner {
 		-moz-transition: opacity 0.75s ease-in-out;
 		-webkit-transition: opacity 0.75s ease-in-out;
 		-ms-transition: opacity 0.75s ease-in-out;
@@ -7424,6 +7444,7 @@
 	.items.onscroll-fade-in.is-inactive > * > .inner {
 		opacity: 0;
 	}
+
 
 /* Items (style1) */
 
