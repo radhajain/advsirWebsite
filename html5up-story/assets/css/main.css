@@ -63,7 +63,7 @@
 
 
 .dinkpics:hover {
-	background-color: lightblue;
+	background-color: #e8e8e8;
 }
 
 .features {
@@ -2021,7 +2021,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: transparent;
+		background-color: rgba(255, 255, 255, 0.82);;
 		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.2);
 		color: #000000 !important;
 	}
@@ -2031,8 +2031,8 @@
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 1px #47D3E5;
-			color: #47D3E5 !important;
+			box-shadow: inset 0 0 0 1px #476032;
+			color: #476032 !important;
 		}
 
 		input[type="submit"]:active,
@@ -3292,6 +3292,9 @@
 /* Banner (style1) */
 
 	.banner.style1 {
+		/*OPENING LANDING HOME PAGE BANNER BACKGROUND */
+		/*background-color: #07c9ff;*/
+		background-image: url("building.jpg");
 		-moz-align-items: stretch;
 		-webkit-align-items: stretch;
 		-ms-align-items: stretch;
